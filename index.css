@@ -55,6 +55,7 @@ li{
     list-style: none;
     margin: 10px 10px;
     font-size: 1.33rem;
+    transition: all 0.5s;
 }
 li a{
     color: #fff;
@@ -66,7 +67,9 @@ li a{
     padding-bottom: 0.25em;
     border-bottom: 4px solid #fff;
 }
-
+li:hover{
+    transform: scale(1.2);
+}
 .hover-class:hover{
     color: #FF1E1E;
 }
@@ -132,6 +135,7 @@ li a{
     text-decoration: none;
     color: #FF1E1E;
     transition: all 1s;
+   
 }
 .post-link:focus,
 .post-link:hover{
