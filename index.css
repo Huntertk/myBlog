@@ -60,12 +60,16 @@ li a{
     color: #fff;
     text-shadow: 1px 1px 3px #000;
     text-decoration: none;
+    transition: color .5s;
 }
 .active{
     padding-bottom: 0.25em;
     border-bottom: 4px solid #fff;
 }
 
+.hover-class:hover{
+    color: #FF1E1E;
+}
 
 /*main container*/
 .main-content-img-one{
@@ -127,6 +131,7 @@ li a{
     font-size: 1.2em;
     text-decoration: none;
     color: #FF1E1E;
+    transition: all 1s;
 }
 .post-link:focus,
 .post-link:hover{
