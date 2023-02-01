@@ -87,7 +87,7 @@ li:hover{
 .open-nav {
     position: absolute;
     top: 2em;
-    right: 1em;
+    right: 2em;
     border: 0;
     background: 0;
     color: #fff;
